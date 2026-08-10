@@ -1,0 +1,8 @@
+Prior art,Established contribution,Implication for S-IMTS
+Single-tone optimized MTS,"Optimize modulation frequency/index, beam powers/sizes, phase, RAM","S-IMTS must improve a declared metric beyond conventional parameter optimization"
+Two-tone FM spectroscopy,"Two RF tones and convenient difference/beat-frequency detection","Tunable IF is secondary, not standalone novelty"
+Simultaneous multi-frequency MTS,"Different modulation frequencies multiplex independent atomic transitions/species","Multi-frequency excitation alone is not novel"
+Velocity-comb MTS,"Multiple optical frequencies address additional velocity groups and improve stability","Fair comparisons must control optical/RF resources and distinguish output-channel information from atom-number gain"
+CN122178176A dual-frequency MTS,"Demodulate f1 and f2 fundamentals, add errors to improve slope and amplitude","Do not claim dual-frequency MTS or summed fundamentals; focus on true p f1+q f2 outputs and optimal weighting"
+Synthetic FM triplet,"Program optical modulation components to improve frequency discriminator/RAM","Synthetic discriminator language alone is not novel; distinguish nonlinear atomic output-channel synthesis"
+Proposed S-IMTS,"Demodulate true combination-frequency channels and jointly optimize complex readout using measured covariance","Working novelty target; requires deeper patent/database search before any first claim"
