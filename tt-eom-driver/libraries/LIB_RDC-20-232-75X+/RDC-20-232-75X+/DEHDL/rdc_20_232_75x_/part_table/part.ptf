@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RDC_20_232_75X_'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "RDC-20-232-75X+" (!) = "", "RDC2023275X", "Other", "139-RDC-20-232-75X+", "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/RDC-20-232-75X%2b?qs=ljCeji4nMDlqXNd5I%2FycaA%3D%3D", "RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module", "https://www.minicircuits.com/pdfs/RDC-20-232-75X+.pdf", "3.56 mm"
+END_PART
+
+END.

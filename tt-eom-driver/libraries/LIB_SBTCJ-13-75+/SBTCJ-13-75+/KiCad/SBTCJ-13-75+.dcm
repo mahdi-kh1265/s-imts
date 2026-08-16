@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SBTCJ-13-75+
+D RF Power Divider 5 MHz ~ 1 GHz Isolation (Min) 20dB, 1.8 VSWR (Max), 9 Imbalance (Max) 6-SMD, Flat Leads
+K
+F https://www.minicircuits.com/pdfs/SBTCJ-13-75+.pdf
+$ENDCMP
+#
+#End Doc Library

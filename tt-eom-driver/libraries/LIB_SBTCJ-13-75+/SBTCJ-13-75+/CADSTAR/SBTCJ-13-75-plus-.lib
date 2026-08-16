@@ -1,0 +1,16 @@
+.SBTCJ-13-75-plus- :1 ;RF Power Divider 5 MHz ~ 1 GHz Isolation (Min) 20dB, 1.8 VSWR (Max), 9 Imbalance (Max) 6-SMD, Flat Leads
+SBTCJ1375
+*STM U
+*NGS
+*PLB 1="PORT 1 (180°) " 2="NOT USED" 3="PORT 2 (0°) " 4="GROUND" 5="EXT. CAPACITOR 3.6 PF /EXT. RESISTOR 30.1Ω /GROUND" 6="SUM PORT"
+*MXP 6
+*DFN SBTCJ-13-75-plus-
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (SBTCJ-13-75+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/SBTCJ-13-75+.pdf)
+~!Height (4.06mm)
+~!3D_Model (SBTCJ-13-75+)
+SBTCJ-13-75-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

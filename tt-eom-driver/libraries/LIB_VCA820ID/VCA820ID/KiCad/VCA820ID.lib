@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model VCA820ID
+#/748705/1910885/2.50/14/3/Integrated Circuit
+DEF VCA820ID IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "VCA820ID" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-14N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/vca820" 950 0 50 H I L CNN
+F4 "150MHz BW with linear in dB gain control variable gain amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-VCA820ID" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/VCA820ID?qs=lqm1LiGWV1%252B%2FxLsKic6RDQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "VCA820ID" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X V+_1 1 0 0 200 R 50 50 0 0 P
+X VG 2 0 -100 200 R 50 50 0 0 P
+X +VIN 3 0 -200 200 R 50 50 0 0 P
+X +RG 4 0 -300 200 R 50 50 0 0 P
+X -RG 5 0 -400 200 R 50 50 0 0 P
+X -VIN 6 0 -500 200 R 50 50 0 0 P
+X V-_1 7 0 -600 200 R 50 50 0 0 P
+X V+_2 14 1100 0 200 L 50 50 0 0 P
+X NC 13 1100 -100 200 L 50 50 0 0 N
+X I- 12 1100 -200 200 L 50 50 0 0 P
+X GND 11 1100 -300 200 L 50 50 0 0 P
+X VOUT 10 1100 -400 200 L 50 50 0 0 P
+X VREF 9 1100 -500 200 L 50 50 0 0 P
+X V-_2 8 1100 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

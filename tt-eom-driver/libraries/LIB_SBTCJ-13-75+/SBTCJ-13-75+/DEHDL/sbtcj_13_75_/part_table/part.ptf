@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SBTCJ_13_75_'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Mini-Circuits", "SBTCJ-13-75+" (!) = "", "SBTCJ1375", "Other", "", "", "RF Power Divider 5 MHz ~ 1 GHz Isolation (Min) 20dB, 1.8 VSWR (Max), 9 Imbalance (Max) 6-SMD, Flat Leads", "https://www.minicircuits.com/pdfs/SBTCJ-13-75+.pdf", "4.06 mm"
+END_PART
+
+END.

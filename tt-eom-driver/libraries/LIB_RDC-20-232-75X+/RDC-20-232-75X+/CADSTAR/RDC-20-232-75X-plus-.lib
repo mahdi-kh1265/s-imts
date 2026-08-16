@@ -1,0 +1,16 @@
+.RDC-20-232-75X-plus- :1 ;RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module
+RDC2023275X
+*STM HY
+*NGS
+*PLB 1="INPUT" 2="GROUND_1" 3="COUPLED" 4="75ohm TERM EXTERNAL" 5="GROUND_2" 6="OUTPUT"
+*MXP 6
+*DFN RDC-20-232-75X-plus-
+~!Mouser Part Number (139-RDC-20-232-75X+)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Mini-Circuits/RDC-20-232-75X%2b?qs=ljCeji4nMDlqXNd5I%2FycaA%3D%3D)
+~!Manufacturer_Name (Mini-Circuits)
+~!Manufacturer_Part_Number (RDC-20-232-75X+)
+~!Link Datasheet (https://www.minicircuits.com/pdfs/RDC-20-232-75X+.pdf)
+~!Height (3.56mm)
+~!3D_Model (RDC-20-232-75X+)
+RDC-20-232-75X-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

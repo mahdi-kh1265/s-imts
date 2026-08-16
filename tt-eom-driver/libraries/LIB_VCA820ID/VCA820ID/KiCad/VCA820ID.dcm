@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VCA820ID
+D 150MHz BW with linear in dB gain control variable gain amplifier
+K
+F http://www.ti.com/lit/gpn/vca820
+$ENDCMP
+#
+#End Doc Library

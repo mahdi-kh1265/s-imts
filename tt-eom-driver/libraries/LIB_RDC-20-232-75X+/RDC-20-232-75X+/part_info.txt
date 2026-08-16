@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=RDC-20-232-75X+
+PartCategory=Circulator or Directional Coupler
+PackageCategory=Other
+PinCount=6
+Version=1.7
+Released=2025-01-11 04:13:50
+Downloaded=2026-08-16 09:19:00
+3D=Y

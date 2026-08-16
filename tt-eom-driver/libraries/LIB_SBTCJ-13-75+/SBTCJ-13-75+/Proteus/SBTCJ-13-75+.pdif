@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SBTCJ-13-75+"
+   (description "RF Power Divider 5 MHz ~ 1 GHz Isolation (Min) 20dB, 1.8 VSWR (Max), 9 Imbalance (Max) 6-SMD, Flat Leads")
+   (family "ANA")
+   (package "SBTCJ1375")
+   (attribute "Datasheet Link" "https://www.minicircuits.com/pdfs/SBTCJ-13-75+.pdf")
+   (attribute "Geometry.Height" "4.06mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "SBTCJ-13-75+")
+   (gate
+    (symbol "SBTCJ-13-75+")
+    (pin "PORT_1_(180°)_" 1 PS)
+    (pin "NOT_USED" 2 PS)
+    (pin "PORT_2_(0°)_" 3 PS)
+    (pin "GROUND" 4 PS)
+    (pin "EXT._CAPACITOR_3.6_PF_/EXT._RESISTOR_30.1Ω_/GROUND" 5 PS)
+    (pin "SUM_PORT" 6 PS)
+   )
+  )
+  (symbol "SBTCJ-13-75+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 3800 100) (pt 3800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 4000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 4000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 4000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SBTCJ1375"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.905 2.03)
+      (pt 1.905 2.03)
+      (pt 1.905 -2.03)
+      (pt -1.905 -2.03)
+      (pt -1.905 2.03))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.905 3.415)
+      (pt 2.905 3.415)
+      (pt 2.905 -3.415)
+      (pt -2.905 -3.415)
+      (pt -2.905 3.415))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.27 2.8)
+      (arc (pt -1.270 2.800) (pt -1.320 2.700) (pt -1.220 2.800) (start 180.0) (sweep 90.0))
+      (pt -1.27 2.7)
+      (arc (pt -1.270 2.700) (pt -1.320 2.700) (pt -1.220 2.800) (start 180.0) (sweep -90.0))
+      (pt -1.27 2.8))))
+   (leg 1 (pt -1.270 1.590) (padstack 0))
+   (leg 2 (pt 0.000 1.590) (padstack 0))
+   (leg 3 (pt 1.270 1.590) (padstack 0))
+   (leg 4 (pt 1.270 -1.590) (padstack 0))
+   (leg 5 (pt 0.000 -1.590) (padstack 0))
+   (leg 6 (pt -1.270 -1.590) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.760 1.650 0 0 90.000))
+   )
+   (model "SBTCJ-13-75+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

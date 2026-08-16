@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RDC-20-232-75X+
+#/15316729/1910885/2.50/6/3/Circulator or Directional Coupler
+DEF RDC-20-232-75X+ HY 0 30 Y Y 1 F N
+F0 "HY" 1950 300 50 H V L CNN
+F1 "RDC-20-232-75X+" 1950 200 50 H V L CNN
+F2 "RDC2023275X" 1950 100 50 H I L CNN
+F3 "https://www.minicircuits.com/pdfs/RDC-20-232-75X+.pdf" 1950 0 50 H I L CNN
+F4 "RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module" 1950 -100 50 H I L CNN "Description"
+F5 "3.56" 1950 -200 50 H I L CNN "Height"
+F6 "139-RDC-20-232-75X+" 1950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/RDC-20-232-75X%2b?qs=ljCeji4nMDlqXNd5I%2FycaA%3D%3D" 1950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mini-Circuits" 1950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RDC-20-232-75X+" 1950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X INPUT 1 0 0 200 R 50 50 0 0 P
+X GROUND_1 2 0 -100 200 R 50 50 0 0 P
+X COUPLED 3 0 -200 200 R 50 50 0 0 P
+X 75ohm_TERM_EXTERNAL 4 2100 -200 200 L 50 50 0 0 P
+X GROUND_2 5 2100 -100 200 L 50 50 0 0 P
+X OUTPUT 6 2100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1900 100 1900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

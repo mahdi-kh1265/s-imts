@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RDC2023275X"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RDC2023275X")
+        (spec "default")
+    )
+)

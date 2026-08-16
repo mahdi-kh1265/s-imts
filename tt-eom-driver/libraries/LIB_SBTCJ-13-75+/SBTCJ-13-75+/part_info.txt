@@ -1,0 +1,9 @@
+Manufacturer=Mini-Circuits
+PartNumber=SBTCJ-13-75+
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=6
+Version=1.3
+Released=2025-11-26 08:40:06
+Downloaded=2026-08-16 08:39:09
+3D=Y

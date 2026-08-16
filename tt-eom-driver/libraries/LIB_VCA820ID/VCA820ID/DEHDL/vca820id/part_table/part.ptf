@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VCA820ID'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "VCA820ID" (!) = "", "SOIC127P600X175-14N", "Small Outline Packages", "595-VCA820ID", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/VCA820ID?qs=lqm1LiGWV1%252B%2FxLsKic6RDQ%3D%3D", "150MHz BW with linear in dB gain control variable gain amplifier", "http://www.ti.com/lit/gpn/vca820", "1.75 mm"
+END_PART
+
+END.

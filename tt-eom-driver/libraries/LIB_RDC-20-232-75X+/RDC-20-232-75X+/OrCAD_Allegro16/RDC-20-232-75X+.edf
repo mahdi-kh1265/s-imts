@@ -1,0 +1,138 @@
+
+(EDIF
+  (rename &RDC_20_232_75X_ "RDC_20_232_75X_")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 08 16 09 19 00)
+      (dataOrigin "15316729/1910885/2.50/6/3/Circulator or Directional Coupler")
+      (program "SamacSys ECAD Model RDC_20_232_75X_"
+        (version "1.7"))))
+  (library
+  (rename &RDC_20_232_75X_ "RDC_20_232_75X_")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &RDC_20_232_75X_ "RDC_20_232_75X_")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "HY")
+          (property (rename PACKAGENAME "PackageName") (string "RDC_20_232_75X_"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "RDC2023275X"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "139-RDC-20-232-75X+"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/RDC-20-232-75X%2b?qs=ljCeji4nMDlqXNd5I%2FycaA%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Mini-Circuits"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "RDC-20-232-75X+"))
+          (property (rename &Description "Description") (string "RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.minicircuits.com/pdfs/RDC-20-232-75X+.pdf"))
+          (property (rename &Height "Height") (string "3.56 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "RDC_20_232_75X_"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &INPUT "INPUT")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &GROUND_1 "GROUND_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &COUPLED "COUPLED")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &75Ω_TERM_EXTERNAL "75Ω_TERM_EXTERNAL")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &GROUND_2 "GROUND_2")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &OUTPUT "OUTPUT")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &INPUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &GROUND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &COUPLED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &75ohm_TERM_EXTERNAL (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1700 -300) (pt 1900 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1900 -300))))
+            )
+            (portImplementation
+              (name &GROUND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1700 -200) (pt 1900 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1900 -200))))
+            )
+            (portImplementation
+              (name &OUTPUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1700 -100) (pt 1900 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1900 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1700 0)
+                  (pt 1700 -400)
+                  (pt 0 -400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1750 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1750 30))))
+          )
+        )
+      )
+    )
+  )
+)

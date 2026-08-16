@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=VCA820ID
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=1.1
+Released=2021-12-08 05:40:36
+Downloaded=2026-08-16 04:45:38
+3D=Y

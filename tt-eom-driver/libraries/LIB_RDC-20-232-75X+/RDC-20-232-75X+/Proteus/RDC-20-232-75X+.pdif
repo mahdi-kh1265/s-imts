@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RDC-20-232-75X+"
+   (description "RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module")
+   (family "ANA")
+   (package "RDC2023275X")
+   (attribute "Datasheet Link" "https://www.minicircuits.com/pdfs/RDC-20-232-75X+.pdf")
+   (attribute "Geometry.Height" "3.56mm")
+   (attribute "Mouser Part Number" "139-RDC-20-232-75X+")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Mini-Circuits/RDC-20-232-75X%2b?qs=ljCeji4nMDlqXNd5I%2FycaA%3D%3D")
+   (attribute "Manufacturer_Name" "Mini-Circuits")
+   (attribute "Manufacturer_Part_Number" "RDC-20-232-75X+")
+   (gate
+    (symbol "RDC-20-232-75X+")
+    (pin "INPUT" 1 PS)
+    (pin "GROUND_1" 2 PS)
+    (pin "COUPLED" 3 PS)
+    (pin "75ohm_TERM_EXTERNAL" 4 PS)
+    (pin "GROUND_2" 5 PS)
+    (pin "OUTPUT" 6 PS)
+   )
+  )
+  (symbol "RDC-20-232-75X+"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1900 100) (pt 1900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RDC2023275X"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.555 3.175)
+      (pt 3.555 3.175)
+      (pt 3.555 -3.175)
+      (pt -3.555 -3.175)
+      (pt -3.555 3.175))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.555 4.935)
+      (pt 4.555 4.935)
+      (pt 4.555 -4.935)
+      (pt -4.555 -4.935)
+      (pt -4.555 4.935))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.555 3.175)
+      (pt -3.555 -3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 3.555 3.175)
+      (pt 3.555 -3.175))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.54 -4.45)
+      (arc (pt -2.540 -4.450) (pt -2.590 -4.450) (pt -2.490 -4.350) (start 180.0) (sweep -90.0))
+      (pt -2.54 -4.35)
+      (arc (pt -2.540 -4.350) (pt -2.590 -4.450) (pt -2.490 -4.350) (start 180.0) (sweep 90.0))
+      (pt -2.54 -4.45))))
+   (leg 1 (pt -2.540 -2.665) (padstack 0))
+   (leg 2 (pt 0.000 -2.665) (padstack 0))
+   (leg 3 (pt 2.540 -2.665) (padstack 0))
+   (leg 4 (pt 2.540 2.665) (padstack 0))
+   (leg 5 (pt 0.000 2.665) (padstack 0))
+   (leg 6 (pt -2.540 2.665) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.270 2.540 0 0 90.000))
+   )
+   (model "RDC-20-232-75X+.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

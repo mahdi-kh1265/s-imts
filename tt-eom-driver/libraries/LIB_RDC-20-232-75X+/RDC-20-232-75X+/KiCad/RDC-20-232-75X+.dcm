@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RDC-20-232-75X+
+D RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module
+K
+F https://www.minicircuits.com/pdfs/RDC-20-232-75X+.pdf
+$ENDCMP
+#
+#End Doc Library

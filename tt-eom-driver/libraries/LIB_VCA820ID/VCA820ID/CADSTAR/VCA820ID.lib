@@ -1,0 +1,16 @@
+.VCA820ID :1 ;150MHz BW with linear in dB gain control variable gain amplifier
+SOIC127P600X175-14N
+*STM IC
+*NGS
+*PLB 1="V+_1" 2="VG" 3="+VIN" 4="+RG" 5="-RG" 6="-VIN" 7="V-_1" 8="V-_2" 9="VREF" 10="VOUT" 11="GND" 12="I-" 13="NC" 14="V+_2"
+*MXP 14
+*DFN VCA820ID
+~!Mouser Part Number (595-VCA820ID)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/VCA820ID?qs=lqm1LiGWV1%252B%2FxLsKic6RDQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (VCA820ID)
+~!Link Datasheet (http://www.ti.com/lit/gpn/vca820)
+~!Height (1.75mm)
+~!3D_Model (VCA820ID)
+VCA820ID
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

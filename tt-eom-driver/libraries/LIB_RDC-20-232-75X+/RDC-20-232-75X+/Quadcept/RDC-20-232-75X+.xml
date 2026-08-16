@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/15316729/1910885/2.50/6/3/Circulator or Directional Coupler/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r254_127" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="49.999999999999" height="99.999999999999" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="57.874015748031" height="107.87401574803" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="49.999999999999" height="99.999999999999" />
+  </padstyle>
+  <footprint name="RDC2023275X" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r254_127" originx="-99.999999999999" originy="-104.92125984252" rotation="0" />
+    <pcbpin number="2" name="2" style="r254_127" originx="0" originy="-104.92125984252" rotation="0" />
+    <pcbpin number="3" name="3" style="r254_127" originx="99.999999999999" originy="-104.92125984252" rotation="0" />
+    <pcbpin number="4" name="4" style="r254_127" originx="99.999999999999" originy="104.92125984252" rotation="0" />
+    <pcbpin number="5" name="5" style="r254_127" originx="0" originy="104.92125984252" rotation="0" />
+    <pcbpin number="6" name="6" style="r254_127" originx="-99.999999999999" originy="104.92125984252" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-139.96062992126" originy="125" endx="139.96062992126" endy="125" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="139.96062992126" originy="125" endx="139.96062992126" endy="-125" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="139.96062992126" originy="-125" endx="-139.96062992126" endy="-125" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-139.96062992126" originy="-125" endx="-139.96062992126" endy="125" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-179.33070866142" originy="194.29133858267" endx="179.33070866142" endy="194.29133858267" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="179.33070866142" originy="194.29133858267" endx="179.33070866142" endy="-194.29133858267" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="179.33070866142" originy="-194.29133858267" endx="-179.33070866142" endy="-194.29133858267" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-179.33070866142" originy="-194.29133858267" endx="-179.33070866142" endy="194.29133858267" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-139.96062992126" originy="125" endx="-139.96062992126" endy="-125" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="139.96062992126" originy="125" endx="139.96062992126" endy="-125" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-99.999999999999" originy="-175.1968503937" endx="-99.999999999999" endy="-175.1968503937" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-99.999999999999" originy="-173.22834645669" startangle="-90.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-99.999999999999" originy="-171.25984251968" endx="-99.999999999999" endy="-171.25984251968" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-99.999999999999" originy="-173.22834645669" startangle="90.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="RDC-20-232-75X+" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1900" endy="100" width="0" />
+    <line originx="1900" originy="-300" endx="1900" endy="100" width="0" />
+    <line originx="1900" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="INPUT" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="GROUND_1" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="COUPLED" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="1900" originy="-200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1870" originy="-200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="75ohm_TERM_EXTERNAL" />
+      <text name="pindes" originx="1960" originy="-180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="5" originx="1900" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1870" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GROUND_2" />
+      <text name="pindes" originx="1960" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="5" />
+    </sympin>
+    <sympin number="6" originx="1900" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="1870" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="OUTPUT" />
+      <text name="pindes" originx="1960" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="6" />
+    </sympin>
+  </symbol>
+  <component name="RDC-20-232-75X+" designatorprefix="HY" height="140.15748031496" footprint="RDC2023275X">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="INPUT" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GROUND_1" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="COUPLED" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="75ohm_TERM_EXTERNAL" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GROUND_2" />
+    <comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="OUTPUT" />
+    <attached_symbol gate="1" name="RDC-20-232-75X+" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <pinmap designator="6" footprintpin="6" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.minicircuits.com/pdfs/RDC-20-232-75X .pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="RF Directional Coupler General Purpose 5MHz ~ 2.35GHz 20.2 +/- 1.3dB 1W 6-SMD Module" />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="139-RDC-20-232-75X+" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Mini-Circuits/RDC-20-232-75X%2b?qs=ljCeji4nMDlqXNd5I%2FycaA%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Mini-Circuits" />
+    <text name="Manufacturer_Part_Number" originx="1950" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="RDC-20-232-75X+" />
+  </component>
+</quadcept_library>

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SBTCJ1375"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SBTCJ1375")
+        (spec "default")
+    )
+)

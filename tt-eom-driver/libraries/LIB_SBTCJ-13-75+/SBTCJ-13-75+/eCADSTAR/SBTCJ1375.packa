@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SBTCJ-13-75+"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-11-26-08:40:06)
+    (mountForm default
+        (footprintRef "SBTCJ1375")
+        (spec "System")
+    )
+)
