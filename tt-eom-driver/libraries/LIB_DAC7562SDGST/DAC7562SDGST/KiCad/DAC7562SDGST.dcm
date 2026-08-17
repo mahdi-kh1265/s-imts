@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAC7562SDGST
+D 12-Bit, Dual, Low Power, Ultra-low Glitch, Buffered Voltage Output DAC with 2.5V, 4ppm/C Reference
+K
+F http://www.ti.com/lit/gpn/DAC7562
+$ENDCMP
+#
+#End Doc Library

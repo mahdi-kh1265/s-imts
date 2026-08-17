@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DAC7562SDGST
+#/827085/1910885/2.50/10/3/Integrated Circuit
+DEF DAC7562SDGST IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "DAC7562SDGST" 1550 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1550 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/DAC7562" 1550 0 50 H I L CNN
+F4 "12-Bit, Dual, Low Power, Ultra-low Glitch, Buffered Voltage Output DAC with 2.5V, 4ppm/C Reference" 1550 -100 50 H I L CNN "Description"
+F5 "1.1" 1550 -200 50 H I L CNN "Height"
+F6 "595-DAC7562SDGST" 1550 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC7562SDGST?qs=L4ss%2FyqpMWSGO6Owt%2FvKEw%3D%3D" 1550 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1550 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DAC7562SDGST" 1550 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUTA 1 0 0 200 R 50 50 0 0 P
+X VOUTB 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X ~LDAC 4 0 -300 200 R 50 50 0 0 P
+X ~CLR 5 0 -400 200 R 50 50 0 0 P
+X VREFIN/VREFOUT 10 1700 0 200 L 50 50 0 0 P
+X AVDD 9 1700 -100 200 L 50 50 0 0 P
+X DIN 8 1700 -200 200 L 50 50 0 0 P
+X SCLK 7 1700 -300 200 L 50 50 0 0 P
+X ~SYNC 6 1700 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

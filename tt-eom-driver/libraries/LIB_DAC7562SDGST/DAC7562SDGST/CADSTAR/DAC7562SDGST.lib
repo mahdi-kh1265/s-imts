@@ -1,0 +1,16 @@
+.DAC7562SDGST :1 ;12-Bit, Dual, Low Power, Ultra-low Glitch, Buffered Voltage Output DAC with 2.5V, 4ppm/C Reference
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VOUTA" 2="VOUTB" 3="GND" 4="'LDAC'" 5="'CLR'" 6="'SYNC'" 7="SCLK" 8="DIN" 9="AVDD" 10="VREFIN/VREFOUT"
+*MXP 10
+*DFN DAC7562SDGST
+~!Mouser Part Number (595-DAC7562SDGST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC7562SDGST?qs=L4ss%2FyqpMWSGO6Owt%2FvKEw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DAC7562SDGST)
+~!Link Datasheet (http://www.ti.com/lit/gpn/DAC7562)
+~!Height (1.1mm)
+~!3D_Model (DAC7562SDGST)
+DAC7562SDGST
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

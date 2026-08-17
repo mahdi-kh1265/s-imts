@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'REC20K_2415DZ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "RECOM Power", "REC20K-2415DZ" (!) = "", "REC20K", "Other", "", "", "20W DC/DC-Converter 'ECONOLINE' 1"x1" 2kV reg 4:1", "https://recom-power.com/pdf/Econoline/REC20K-Z.pdf"
+END_PART
+
+END.

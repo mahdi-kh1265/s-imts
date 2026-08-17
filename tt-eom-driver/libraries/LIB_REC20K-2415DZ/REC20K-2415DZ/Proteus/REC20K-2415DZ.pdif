@@ -1,0 +1,127 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "REC20K-2415DZ"
+   (description "20W DC/DC-Converter \'ECONOLINE\' 1\"x1\" 2kV reg 4:1")
+   (family "ANA")
+   (package "REC20K")
+   (attribute "Datasheet Link" "https://recom-power.com/pdf/Econoline/REC20K-Z.pdf")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "RECOM Power")
+   (attribute "Manufacturer_Part_Number" "REC20K-2415DZ")
+   (gate
+    (symbol "REC20K-2415DZ")
+    (pin "+VIN" 1 PS)
+    (pin "-VIN" 2 PS)
+    (pin "CTRL" 3 PS)
+    (pin "-VOUT" 4 PS)
+    (pin "COM" 5 PS)
+    (pin "+VOUT" 6 PS)
+   )
+  )
+  (symbol "REC20K-2415DZ"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "REC20K"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.54 15.24)
+      (pt 22.86 15.24)
+      (pt 22.86 -10.16)
+      (pt -2.54 -10.16)
+      (pt -2.54 15.24))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.54 15.24)
+      (pt 22.86 15.24)
+      (pt 22.86 -10.16)
+      (pt -2.54 -10.16)
+      (pt -2.54 15.24))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.54 16.24)
+      (pt 23.86 16.24)
+      (pt 23.86 -11.16)
+      (pt -3.54 -11.16)
+      (pt -3.54 16.24))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt 0.000 5.080) (padstack 0))
+   (leg 3 (pt 0.000 12.700) (padstack 0))
+   (leg 4 (pt 20.320 12.700) (padstack 0))
+   (leg 5 (pt 20.320 2.540) (padstack 0))
+   (leg 6 (pt 20.320 -7.620) (padstack 0))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 1
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (square 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (square 1.500))
+   )
+   (model "REC20K-2415DZ.stp"
+    (euler -90 0 0)
+    (offset 10.15999984741211 2.5399999618530273 0.4300000071525574)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DAC7562SDGST
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2021-12-16 07:31:42
+Downloaded=2026-08-17 03:54:40
+3D=Y

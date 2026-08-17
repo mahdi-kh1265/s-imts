@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "REC20K"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "REC20K")
+        (spec "default")
+    )
+)

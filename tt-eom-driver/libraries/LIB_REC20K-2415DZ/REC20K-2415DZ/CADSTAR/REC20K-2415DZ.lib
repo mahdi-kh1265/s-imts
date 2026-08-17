@@ -1,0 +1,16 @@
+.REC20K-2415DZ :1 ;20W DC/DC-Converter 'ECONOLINE' 1"x1" 2kV reg 4:1
+REC20K
+*STM PS
+*NGS
+*PLB 1="+VIN" 2="-VIN" 3="CTRL" 4="-VOUT" 5="COM" 6="+VOUT"
+*MXP 6
+*DFN REC20K-2415DZ
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Manufacturer_Name (RECOM Power)
+~!Manufacturer_Part_Number (REC20K-2415DZ)
+~!Link Datasheet (https://recom-power.com/pdf/Econoline/REC20K-Z.pdf)
+~!Height (-)
+~!3D_Model (REC20K-2415DZ)
+REC20K-2415DZ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

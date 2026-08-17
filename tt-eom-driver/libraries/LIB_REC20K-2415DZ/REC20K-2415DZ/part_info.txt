@@ -1,0 +1,9 @@
+Manufacturer=RECOM Power
+PartNumber=REC20K-2415DZ
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=6
+Version=2.1
+Released=2024-06-10 19:40:45
+Downloaded=2026-08-17 04:42:05
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DAC7562SDGST'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DAC7562SDGST" (!) = "", "SOP50P490X110-10N", "Small Outline Packages", "595-DAC7562SDGST", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC7562SDGST?qs=L4ss%2FyqpMWSGO6Owt%2FvKEw%3D%3D", "12-Bit, Dual, Low Power, Ultra-low Glitch, Buffered Voltage Output DAC with 2.5V, 4ppm/C Reference", "http://www.ti.com/lit/gpn/DAC7562", "1.1 mm"
+END_PART
+
+END.
