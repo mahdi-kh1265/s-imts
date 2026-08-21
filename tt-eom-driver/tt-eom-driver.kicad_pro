@@ -649,7 +649,7 @@
         "uuid": "0c26daab-e1a2-4de5-991e-7305f15eaa2a"
       }
     ],
-    "used_designators": "#PWR78-93,C41-48,R35-38",
+    "used_designators": "D3-4,#PWR98-103,S1,C51-56,+24V TEST1,FB5,F1,J5",
     "variants": []
   },
   "sheets": [
