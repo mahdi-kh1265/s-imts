@@ -4991,7 +4991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "BLM21SP111SN1"
+		(property "Datasheet" "BLM21SP111SN1, 1206?"
 			(at 86.36 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -5589,7 +5589,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "364f6efc-fe1e-4a80-8c3f-e5df8e816652")
 		(property "Reference" "#PWR078"
 			(at 21.59 93.98 0)
@@ -5602,14 +5601,15 @@
 				)
 			)
 		)
-		(property "Value" "+15V1"
-			(at 21.59 85.09 0)
+		(property "Value" "+15V"
+			(at 19.05 85.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6828,7 +6828,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "RETURN_GND"
 			(at 105.41 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7374,7 +7374,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "RETURN_GND"
 			(at 123.19 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,7 +10620,7 @@
 				)
 			)
 		)
-		(property "Value" "-15V1"
+		(property "Value" "-15V"
 			(at 19.812 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
