@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS7A4901DRBT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS7A4901DRBT" (!) = "", "TPS7A4901DRBT", "Other", "595-TPS7A4901DRBT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A4901DRBT?qs=pV2tVPdcZ6zWH9W1Sn7%252Btg%3D%3D", "LDO Voltage Regulators Vin 3V to 36V 150mA UltraLow Noise", "https://www.arrow.com/en/products/tps7a4901drbt/texas-instruments?region=nac", "1 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.TPS7A4901DRBT :1 ;LDO Voltage Regulators Vin 3V to 36V 150mA UltraLow Noise
+TPS7A4901DRBT
+*STM IC
+*NGS
+*PLB 1="OUT" 2="FB" 3="NC" 4="GND" 5="EN" 6="NR/SS" 7="DNC" 8="IN" 9="EP_1" 10="EP_2" 11="EP_3" 12="EP_4" 13="EP_5"
+*MXP 13
+*DFN TPS7A4901DRBT
+~!Mouser Part Number (595-TPS7A4901DRBT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7A4901DRBT?qs=pV2tVPdcZ6zWH9W1Sn7%252Btg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS7A4901DRBT)
+~!Link Datasheet (https://www.arrow.com/en/products/tps7a4901drbt/texas-instruments?region=nac)
+~!Height (1mm)
+~!3D_Model (TPS7A4901DRBT)
+TPS7A4901DRBT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 

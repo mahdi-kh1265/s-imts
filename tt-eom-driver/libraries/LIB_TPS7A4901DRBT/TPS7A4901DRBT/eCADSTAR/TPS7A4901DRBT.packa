@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TPS7A4901DRBT"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-01-24-09:58:06)
+    (mountForm default
+        (footprintRef "TPS7A4901DRBT")
+        (spec "System")
+    )
+)

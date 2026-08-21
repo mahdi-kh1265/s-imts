@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS7A4901DRBT
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=13
+Version=1.2
+Released=2023-01-24 09:58:05
+Downloaded=2026-08-17 07:35:49
+3D=Y

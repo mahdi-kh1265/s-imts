@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS7A4901DRBT
+D LDO Voltage Regulators Vin 3V to 36V 150mA UltraLow Noise
+K
+F https://www.arrow.com/en/products/tps7a4901drbt/texas-instruments?region=nac
+$ENDCMP
+#
+#End Doc Library
